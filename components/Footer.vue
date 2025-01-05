@@ -15,7 +15,7 @@
             </div>
         </div>
         <div class="relative flex items-center">
-            <h1 class="font-Poppins font-semibold sm:text-3xl text-2xl 2xl:text-4xl text-black-3 capitalize">Clip your pad my contacts</h1>
+            <h1 class="font-Poppins font-semibold sm:text-3xl text-2xl 2xl:text-4xl text-black-3 capitalize">Clip my contacts</h1>
         </div>
     </div>
 </template>

@@ -7,7 +7,7 @@
             <img src="/public/img/myImg.jpg" class="w-full">
             </div>
         </div>
-        <h1 class="md:w-1/3 sm:w-1/2 w-0 font-Sour 2xl:text-3xl md:text-2xl text-xl text-black-1 flex md:justify-center justify-end items-center"><p class="md:mr-0 mr-[10px] md:mt-0 mt-[-3px] hidden md:flex">Navinkumar</p></h1>
+        <h1 class="md:w-1/3 sm:w-1/2 w-0 font-Sour 2xl:text-3xl md:text-2xl text-xl text-black-1 flex md:justify-center justify-end items-center"><p class="md:mr-0 mr-[10px] md:mt-0 mt-[-3px] hidden md:flex"></p></h1>
         <div class="md:w-1/3 w-1/2 flex justify-end items-center z-10 ">
                  <button class="bg-black-3 shadow-sm text-white px-6 2xl:h-[80%] h-full rounded-full 2xl:text-lg text-base font-semibold flex justify-center items-center font-poppins" @click="downloadFile()"><p class="mt-[-3px]">Resume</p></button>
         </div>

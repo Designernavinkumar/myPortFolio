@@ -9,9 +9,6 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
-  plugins: [
-    '~/plugins/particles.js'
-  ],
   modules: ['@nuxtjs/google-fonts'],
   googleFonts: {
     families: {

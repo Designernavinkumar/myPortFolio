@@ -4,13 +4,13 @@
         <div class="lg:w-3/5 md:w-3/6 flex flex-col 2xl:gap-8 gap-6 md:order-1 order-2">
           <div class="flex flex-col gap-6 sm:gap-4">
             <h1 class="font-EBGaramond italic font-semibold 2xl:text-6xl sm:text-5xl text-4xl text-black-3">
-              Front-end Developer
+              Navinkumar
             </h1>
             <div class="flex flex-col gap-4">
               <p class="font-Poppins 2xl:text-lg md:text-sm sm:text-base text-sm font-light text-black-3">
                 I specialize in crafting interactive, user-friendly websites and
                 applications. With a passion for clean design and seamless user
-                experiences, I bridge the gap between design and development.
+                experiences, I bridge the gap between <span class="font-medium">Design and Development</span>.
               </p>
             </div>
           </div>
@@ -57,7 +57,7 @@
     if (!showLines.value) return 0; // Hide lines when cursor leaves
     const distance = Math.abs(mouseX.value - lineX);
     const maxDistance = containerWidth.value / 2;
-    return Math.max(0, 0.6 - distance / maxDistance); // Adjust opacity based on proximity
+    return Math.max(0, 1 - distance / maxDistance); // Adjust opacity based on proximity
   };
   
   const mouseX = ref(0);
